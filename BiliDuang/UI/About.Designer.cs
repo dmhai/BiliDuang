@@ -34,10 +34,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialLabel2 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.button1 = new System.Windows.Forms.Button();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialFlatButton2 = new MaterialSkin.Controls.MaterialFlatButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +49,7 @@
             this.materialLabel1.Location = new System.Drawing.Point(12, 76);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
-            this.materialLabel1.Size = new System.Drawing.Size(607, 220);
+            this.materialLabel1.Size = new System.Drawing.Size(607, 260);
             this.materialLabel1.TabIndex = 0;
             this.materialLabel1.Text = resources.GetString("materialLabel1.Text");
             // 
@@ -71,7 +70,7 @@
             this.materialFlatButton1.Depth = 0;
             this.materialFlatButton1.Icon = null;
             this.materialFlatButton1.IconTxt = null;
-            this.materialFlatButton1.Location = new System.Drawing.Point(39, 354);
+            this.materialFlatButton1.Location = new System.Drawing.Point(650, 263);
             this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialFlatButton1.Name = "materialFlatButton1";
@@ -96,39 +95,10 @@
             this.materialLabel2.Text = "Kengwang";
             this.materialLabel2.Click += new System.EventHandler(this.materialLabel2_Click);
             // 
-            // materialFlatButton2
-            // 
-            this.materialFlatButton2.AutoSize = true;
-            this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton2.Depth = 0;
-            this.materialFlatButton2.Icon = null;
-            this.materialFlatButton2.IconTxt = null;
-            this.materialFlatButton2.Location = new System.Drawing.Point(449, 354);
-            this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton2.Name = "materialFlatButton2";
-            this.materialFlatButton2.Primary = false;
-            this.materialFlatButton2.Size = new System.Drawing.Size(104, 36);
-            this.materialFlatButton2.TabIndex = 4;
-            this.materialFlatButton2.Text = "BiliPlus API";
-            this.materialFlatButton2.UseVisualStyleBackColor = true;
-            this.materialFlatButton2.Click += new System.EventHandler(this.materialFlatButton2_Click);
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 1000;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(664, 259);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 42);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "爱发电 打赏";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // materialLabel3
             // 
@@ -143,14 +113,31 @@
             this.materialLabel3.TabIndex = 6;
             this.materialLabel3.Text = "版本: 2.1.1 The Pluto";
             // 
+            // materialFlatButton2
+            // 
+            this.materialFlatButton2.AutoSize = true;
+            this.materialFlatButton2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.materialFlatButton2.Depth = 0;
+            this.materialFlatButton2.Icon = null;
+            this.materialFlatButton2.IconTxt = null;
+            this.materialFlatButton2.Location = new System.Drawing.Point(676, 311);
+            this.materialFlatButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.materialFlatButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialFlatButton2.Name = "materialFlatButton2";
+            this.materialFlatButton2.Primary = false;
+            this.materialFlatButton2.Size = new System.Drawing.Size(76, 36);
+            this.materialFlatButton2.TabIndex = 7;
+            this.materialFlatButton2.Text = "吾爱破解";
+            this.materialFlatButton2.UseVisualStyleBackColor = true;
+            this.materialFlatButton2.Click += new System.EventHandler(this.materialFlatButton2_Click_1);
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(816, 450);
-            this.Controls.Add(this.materialLabel3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.materialFlatButton2);
+            this.Controls.Add(this.materialLabel3);
             this.Controls.Add(this.materialLabel2);
             this.Controls.Add(this.materialFlatButton1);
             this.Controls.Add(this.pictureBox1);
@@ -169,9 +156,8 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
         private MaterialSkin.Controls.MaterialLabel materialLabel2;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton2;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Button button1;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
+        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton2;
     }
 }

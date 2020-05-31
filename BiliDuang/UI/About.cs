@@ -68,29 +68,36 @@ namespace BiliDuang.UI
                 dlg.ShowDialog();
             }
         }
+        /*
+private void materialFlatButton2_Click(object sender, EventArgs e)
+{
+    System.Diagnostics.Process.Start("https://www.biliplus.com/");
+}
 
-        private void materialFlatButton2_Click(object sender, EventArgs e)
+
+private void timer1_Tick(object sender, EventArgs e)
+{
+    Random ro = new Random(10);
+    long tick = DateTime.Now.Ticks;
+    Random ran = new Random((int)(tick & 0xffffffffL) | (int)(tick >> 32));
+
+    int R = ran.Next(255);
+    int G = ran.Next(255);
+    int B = ran.Next(255);
+    B = (R + G > 400) ? R + G - 400 : B;//0 : 380 - R - G;
+    B = (B > 255) ? 255 : B;
+    button1.BackColor = Color.FromArgb(R, G, B);
+}
+
+private void button1_Click(object sender, EventArgs e)
+{
+    System.Diagnostics.Process.Start("https://afdian.net/@kengwang");
+
+}*/
+
+        private void materialFlatButton2_Click_1(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://www.biliplus.com/");
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            Random ro = new Random(10);
-            long tick = DateTime.Now.Ticks;
-            Random ran = new Random((int)(tick & 0xffffffffL) | (int)(tick >> 32));
-
-            int R = ran.Next(255);
-            int G = ran.Next(255);
-            int B = ran.Next(255);
-            B = (R + G > 400) ? R + G - 400 : B;//0 : 380 - R - G;
-            B = (B > 255) ? 255 : B;
-            button1.BackColor = Color.FromArgb(R, G, B);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            System.Diagnostics.Process.Start("https://afdian.net/@kengwang");
+            System.Diagnostics.Process.Start("https://www.52pojie.cn/thread-1190230-1-1.html");
 
         }
     }
